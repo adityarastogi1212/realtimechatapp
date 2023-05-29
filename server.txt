@@ -1,0 +1,150 @@
+Microsoft Windows [Version 10.0.19045.2846]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\My Projects\Realtime-chat-app-with-rooms-main>cd server
+
+D:\My Projects\Realtime-chat-app-with-rooms-main\server>npm init -y
+Wrote to D:\My Projects\Realtime-chat-app-with-rooms-main\server\package.json:
+
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "keywords": [],
+  "description": ""
+}
+
+
+
+D:\My Projects\Realtime-chat-app-with-rooms-main\server>npm i axios cors express socket.io dotenv
+
+added 116 packages, and audited 117 packages in 5s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\My Projects\Realtime-chat-app-with-rooms-main\server>npm i -D nodemon
+
+changed 1 package, and audited 117 packages in 782ms
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\My Projects\Realtime-chat-app-with-rooms-main\server>npm run dev
+
+> server@1.0.0 dev
+> nodemon index.js
+
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+User connected 6leE8jLd_G8GP6X6AAAB
+D:\My Projects\Realtime-chat-app-with-rooms-main\server\index.js:58
+      .then((last100Messages) => {
+      ^
+
+TypeError: Cannot read properties of null (reading 'then')
+    at Socket.<anonymous> (D:\My Projects\Realtime-chat-app-with-rooms-main\server\index.js:58:7)
+    at Socket.emit (node:events:513:28)
+    at Socket.emitUntyped (D:\My Projects\Realtime-chat-app-with-rooms-main\server\node_modules\socket.io\dist\typed-events.js:69:22)     
+    at D:\My Projects\Realtime-chat-app-with-rooms-main\server\node_modules\socket.io\dist\socket.js:703:39
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)? y
+
+D:\My Projects\Realtime-chat-app-with-rooms-main\server>npm run dev
+
+> server@1.0.0 dev
+> nodemon index.js
+
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+User connected wKnm3ma53RwSPC3DAAAC
+User connected jEeNA1Cy8XylO4l1AAAD
+D:\My Projects\Realtime-chat-app-with-rooms-main\server\index.js:58
+      .then((last100Messages) => {
+      ^
+
+TypeError: Cannot read properties of null (reading 'then')
+    at Socket.<anonymous> (D:\My Projects\Realtime-chat-app-with-rooms-main\server\index.js:58:7)
+    at Socket.emit (node:events:513:28)
+    at Socket.emitUntyped (D:\My Projects\Realtime-chat-app-with-rooms-main\server\node_modules\socket.io\dist\typed-events.js:69:22)     
+    at D:\My Projects\Realtime-chat-app-with-rooms-main\server\node_modules\socket.io\dist\socket.js:703:39
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)? 
+
+D:\My Projects\Realtime-chat-app-with-rooms-main\server>npm run dev
+
+> server@1.0.0 dev
+> nodemon index.js
+
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+User connected rJRpMpXhicuF5e5sAAAB
+User connected WjYBboRIljaeUHpsAAAD
+{"message":"inserted 1 of 1 records","inserted_hashes":["72bb4db1-f50b-46b1-8d01-94d5e7cd3143"],"skipped_hashes":[]}
+{"message":"inserted 1 of 1 records","inserted_hashes":["dd4bf7dc-aea3-4d5e-8fbd-b30067688c78"],"skipped_hashes":[]}
+{"message":"inserted 1 of 1 records","inserted_hashes":["4a7bf62f-fc25-45e7-8c9b-14b693eb0e9b"],"skipped_hashes":[]}
+{"message":"inserted 1 of 1 records","inserted_hashes":["ce20568d-3356-48cb-bf29-8e4531afa58e"],"skipped_hashes":[]}
+zack has left the chat
+User connected HbbzFUMCR1i-zkliAAAF
+User connected TGg8qYQinvsJuK2NAAAH
+User connected 4wj-Vt3T7mzvyA-DAAAJ
+{"message":"inserted 1 of 1 records","inserted_hashes":["bbafff26-3ce0-43b8-b385-406aaf87cea5"],"skipped_hashes":[]}
+{"message":"inserted 1 of 1 records","inserted_hashes":["74026114-8966-41e7-936d-0c0e03a6a037"],"skipped_hashes":[]}
+dev has left the chat
+User disconnected from the chat
+User connected -8Vod-L819tSLtMFAAAL
+User disconnected from the chat
+User disconnected from the chat
+User disconnected from the chat
+User disconnected from the chat
+User disconnected from the chat
+User connected aWINL4dcEgGlUniqAAAN
+{"message":"inserted 1 of 1 records","inserted_hashes":["70cc3ae3-1687-4f5a-84b3-f3ee9b213061"],"skipped_hashes":[]}
+User connected 4tznKHe6LPOgmq1KAAAP
+{"message":"inserted 1 of 1 records","inserted_hashes":["66ec0dbd-3538-4116-9c06-9461c8cc862e"],"skipped_hashes":[]}
+User connected taW-Y5dHgBDq-7b0AAAR
+User connected 7K_vLKolnjB5gVu5AAAT
+User connected xClqZMy4dsEou2Z6AAAV
+aki has left the chat
+User disconnected from the chat
+akash has left the chat
+User disconnected from the chat
+adi has left the chat
+User disconnected from the chat
+adarsh has left the chat
+User disconnected from the chat
+abhi has left the chat
+User disconnected from the chat
+Terminate batch job (Y/N)? y
+
+D:\My Projects\Realtime-chat-app-with-rooms-main\server>  
